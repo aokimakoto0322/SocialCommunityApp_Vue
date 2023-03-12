@@ -22,6 +22,11 @@ const router = createRouter({
       path: '/reactuve',
       name: 'reactuve',
       component: ReactiveSample
+    },
+    {
+      path: '/directive',
+      name: 'directive',
+      component: () => import('../components/DirectiveSample.vue')
     }
   ]
 })
