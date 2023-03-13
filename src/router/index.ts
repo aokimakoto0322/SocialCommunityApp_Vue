@@ -27,6 +27,11 @@ const router = createRouter({
       path: '/directive',
       name: 'directive',
       component: () => import('../components/DirectiveSample.vue')
+    },
+    {
+      path: '/event',
+      name: 'event',
+      component: () => import('../components/EventSample.vue')
     }
   ]
 })
