@@ -37,6 +37,11 @@ const router = createRouter({
       path: '/databind',
       name: 'databind',
       component: () => import('../components/DataBindSample.vue')
+    },
+    {
+      path: '/control',
+      name: 'control',
+      component: () => import('../components/ControlSample.vue')
     }
   ]
 })
