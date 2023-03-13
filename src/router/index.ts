@@ -32,6 +32,11 @@ const router = createRouter({
       path: '/event',
       name: 'event',
       component: () => import('../components/EventSample.vue')
+    },
+    {
+      path: '/databind',
+      name: 'databind',
+      component: () => import('../components/DataBindSample.vue')
     }
   ]
 })
