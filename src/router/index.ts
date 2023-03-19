@@ -42,6 +42,11 @@ const router = createRouter({
       path: '/control',
       name: 'control',
       component: () => import('../components/ControlSample.vue')
+    },
+    {
+      path: '/watch',
+      name: 'watch',
+      component: () => import('../components/WatchSample.vue')
     }
   ]
 })
