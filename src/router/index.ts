@@ -22,6 +22,12 @@ const router = createRouter({
       path: '/compornent',
       name: 'compornent',
       component: () => import('../A01_CompornentMain.vue')
+    },
+    {
+      //Compornentについてのメインページ
+      path: '/compornent2',
+      name: 'compornent2',
+      component: () => import('../A02_CompornentMain.vue')
     }
   ]
 })
