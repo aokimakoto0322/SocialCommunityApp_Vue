@@ -28,6 +28,11 @@ const router = createRouter({
       path: '/compornent2',
       name: 'compornent2',
       component: () => import('../A02_CompornentMain.vue')
+    },
+    {
+      path: '/inject',
+      name: 'inject',
+      component: () => import('../A03_CompornentMain.vue')
     }
   ]
 })
